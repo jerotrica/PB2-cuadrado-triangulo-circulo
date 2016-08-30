@@ -25,4 +25,12 @@ public class Testing {
 	}
 // PUSE TANTOS DECIMALES COMO PEDIA EL FAILURE, EN GENERAL DABA BIEN PERO ERRABA POR UNA MILESIMA.
 
+	@Test
+	public void testingTriangulo() {
+		Triangulo trianguloPrueba = new Triangulo();
+		trianguloPrueba.calcularPerimetro(4, 4, 4);
+		trianguloPrueba.calcularArea(10, 5);
+		assertEquals(12, trianguloPrueba.visualizarPerimetro(),0);
+		assertEquals(25, trianguloPrueba.visualizarArea(), 0);
+	}
 }
