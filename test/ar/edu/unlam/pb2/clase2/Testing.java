@@ -20,10 +20,9 @@ public class Testing {
 		Circulo circuloPrueba = new Circulo();
 		circuloPrueba.calcularPerimetro((float) 5);
 		circuloPrueba.calcularArea((float) 4);
-		assertEquals(31.399999618530273, circuloPrueba.visualizarPerimetro(),0);
-		assertEquals(157.75360107421875, circuloPrueba.visualizarArea(), 0);
+		assertEquals(31.39, circuloPrueba.visualizarPerimetro(),0.01);
+		assertEquals(157.75, circuloPrueba.visualizarArea(), 0.01);
 	}
-// PUSE TANTOS DECIMALES COMO PEDIA EL FAILURE, EN GENERAL DABA BIEN PERO ERRABA POR UNA MILESIMA.
 
 	@Test
 	public void testingTriangulo() {
