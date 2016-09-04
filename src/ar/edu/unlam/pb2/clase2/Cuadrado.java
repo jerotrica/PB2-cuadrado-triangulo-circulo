@@ -19,4 +19,4 @@ public class Cuadrado {
 	public float visualizarArea(){
 		return this.areaCuadrado;
 	}
-	}
+}
