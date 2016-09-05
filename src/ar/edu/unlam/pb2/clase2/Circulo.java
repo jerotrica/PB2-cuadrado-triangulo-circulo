@@ -1,6 +1,7 @@
 package ar.edu.unlam.pb2.clase2;
 
 public class Circulo {
+	@SuppressWarnings("unused")
 	private Float radio, perimetroCirculo,areaCirculo;	
 	
 	

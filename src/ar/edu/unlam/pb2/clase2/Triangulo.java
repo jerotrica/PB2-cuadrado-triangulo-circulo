@@ -1,7 +1,7 @@
 package ar.edu.unlam.pb2.clase2;
 
 public class Triangulo {
-	private Integer baseTriangulo, alturaTriangulo, lado1Triangulo, lado2Triangulo, lado3Triangulo;	
+	/*private Integer baseTriangulo, alturaTriangulo, lado1Triangulo, lado2Triangulo, lado3Triangulo;*/
 	private Integer perimetroTriangulo, areaTriangulo;
 // VOY A SIMULAR QUE ES EQUILATERO, POR QUE NO ME DEJA CARGAR MAS DE UN LADO EN 
 

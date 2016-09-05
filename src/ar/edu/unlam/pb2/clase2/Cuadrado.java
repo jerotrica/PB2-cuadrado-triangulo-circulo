@@ -1,6 +1,7 @@
 package ar.edu.unlam.pb2.clase2;
 
 public class Cuadrado {
+	@SuppressWarnings("unused")
 	private Float ladoCuadrado, perimetroCuadrado,areaCuadrado;	
 	
 
